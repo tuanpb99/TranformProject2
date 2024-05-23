@@ -1,0 +1,15 @@
+TranformProject2:
+  outputs:
+    dev:
+      dataset: dbDec
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: E:\TuanPham\DecProject\Project2\decproject2-de82bdf763ac.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: decproject2
+      threads: 4
+      type: bigquery
+  target: dev
+
